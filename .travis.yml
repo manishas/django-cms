@@ -40,12 +40,7 @@ after_success: coveralls --config_file=.coverage.rc --coveralls_yaml=.coveralls.
 notifications:
   email:
     recipients:
-    - digi@treepy.com
-    on_success: never
-    on_failure: always
-  irc:
-  - irc.freenode.org#django-cms
-  - irc.freenode.org#django-cms-sprint
+    - manisha@shippable.com
 matrix:
   exclude:
   - python: 3.3
